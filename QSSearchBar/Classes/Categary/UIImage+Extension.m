@@ -12,9 +12,9 @@
 
 + (UIImage *)imageWithImageName:(NSString *)imageName
 {
-    NSString *dirPath = [[NSBundle mainBundle] pathForResource:@"QSSearchView" ofType:@"bundle"];
-    NSString *imagePath = [dirPath stringByAppendingPathComponent:imageName];
-    UIImage *image = [UIImage imageNamed:imagePath];
+    NSBundle *bundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:NSClassFromString(@"QSSearchBarSearchItem")] pathForResource:@"QSSearchBar" ofType:@"bundle"]];
+    NSString *path = [bundle pathForResource:imageName ofType:nil];
+    UIImage *image = [[UIImage imageWithContentsOfFile:path] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
     return image;
 }
 

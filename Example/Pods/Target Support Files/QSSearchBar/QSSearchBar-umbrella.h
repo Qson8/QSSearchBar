@@ -17,10 +17,10 @@
 #import "UIImage+Extension.h"
 #import "UINavigationController+FDFullscreenPopGesture.h"
 #import "UIView+Extension.h"
-#import "QSMacro.h"
 #import "QSSearchBar.h"
 #import "QSSearchBarButtonItem.h"
 #import "QSSearchBarSearchItem.h"
+#import "QSSearchConst.h"
 
 FOUNDATION_EXPORT double QSSearchBarVersionNumber;
 FOUNDATION_EXPORT const unsigned char QSSearchBarVersionString[];

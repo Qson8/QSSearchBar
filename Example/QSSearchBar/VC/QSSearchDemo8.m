@@ -93,7 +93,7 @@
                 UIView *view = [[UIView alloc] init];
                 view.frame = CGRectMake(0, 0, 60, 30);
 
-                UIImage *image = [UIImage imageWithImageName:@"mirror_search"];
+                UIImage *image = [UIImage imageWithImageName:@"mirror_search@3x.png"];
                 UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
                 [btn setImage:image forState:(UIControlStateNormal)];
                 [btn sizeToFit];
@@ -120,8 +120,8 @@
         edge = UIEdgeInsetsMake(0, 19, 0, 18);
         searchBar.leftButtonItem = ({
             QSSearchBarButtonItem *item = [QSSearchBarButtonItem defaultSearchBarButtonItem];
-            item.image = [UIImage imageWithImageName:@"mirror_search"];
-            item.focusImage = [UIImage imageWithImageName:@"mirror_search"];
+            item.image = [UIImage imageWithImageName:@"mirror_search@3x.png"];
+            item.focusImage = [UIImage imageWithImageName:@"mirror_search@3x.png"];
             item.title = @"未登录";
             item.titlerFont = [UIFont systemFontOfSize:10];
             item.titleColor = [UIColor whiteColor];

@@ -9,7 +9,7 @@
 #import "QSSearchBar.h"
 #import "UIView+Extension.h"
 #import "NSString+AttributedString.h"
-#import "QSMacro.h"
+
 
 @interface QSSearchBar () <UITextFieldDelegate>
 @property (nonatomic, weak) UIView *contentView;

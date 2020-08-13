@@ -1,22 +1,18 @@
 //
-//  QSMacro.h
-//  QSSearchDemo
+//  QSSearchConst.h
+//  QSSearchBar
 //
-//  Created by Qson on 2018/5/23.
-//  Copyright © 2018年 Qson. All rights reserved.
+//  Created by Qson on 2020/8/13.
 //
 
 #import <UIKit/UIKit.h>
-#import "QSSearchBar.h"
+//#import "QSSearchBar.h"
 #import "UIView+Extension.h"
 #import "NSString+AttributedString.h"
 
 #import "QSSearchBarSearchItem+Extension.h"
 #import "QSSearchBarButtonItem+Extension.h"
 #import "UIImage+Extension.h"
-
-#ifndef QSMacro_h
-#define QSMacro_h
 
 #ifdef DEBUG // 调试状态, 打开LOG功能
 #define QSLog(...) NSLog(__VA_ARGS__)
@@ -63,5 +59,3 @@
 #define NUM         @"0123456789"
 #define ALPHA       @"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
 #define ALPHANUM @"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
-
-#endif /* QSMacro_h */

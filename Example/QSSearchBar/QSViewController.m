@@ -7,7 +7,7 @@
 //
 
 #import "QSViewController.h"
-#import "QSMacro.h"
+#import <QSSearchBar/QSSearchBar.h>
 #import "QSSearchDemo1.h"
 #import "QSSearchDemo2.h"
 #import "QSSearchDemo3.h"

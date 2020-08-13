@@ -7,7 +7,7 @@
 //
 
 #import "QSSearchBarSearchItem+Extension.h"
-#import "QSMacro.h"
+#import "QSSearchConst.h"
 
 @implementation QSSearchBarSearchItem (Extension)
 
@@ -16,7 +16,7 @@
     NSString *title = @"";
     NSString *placeholder = @"请输入关键词...";
     NSInteger lengthMax = 0;
-    UIImage *image = [UIImage imageWithImageName:@"mirror_search"];
+    UIImage *image = [UIImage imageWithImageName:@"mirror_search@3x.png"];
     UIColor *color = QSColor(51, 51, 51,1);
     UIColor *placeholderColor = QSColor(153, 153, 153,1.0);
     UIFont *font = [UIFont systemFontOfSize:14];

@@ -79,7 +79,7 @@
         QSSearchBar *customSearchBar = [QSSearchBar defaultSearchBar];
         customSearchBar.delegate = self;
         
-        UIImage *image = [UIImage imageWithImageName:@"goback_search"];
+        UIImage *image = [UIImage imageWithImageName:@"goback_search@3x.png"];
         id target = self;
         SEL action = @selector(popViewController);
         UIEdgeInsets marginEdgeInsets = UIEdgeInsetsMake(0, 10, 0, 0);

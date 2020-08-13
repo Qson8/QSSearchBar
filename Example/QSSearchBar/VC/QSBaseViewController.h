@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "QSMacro.h"
+#import "QSSearchBar.h"
 
 @interface QSBaseViewController : UIViewController
 @property (nonatomic, assign,null_resettable) UITableView *tableView;

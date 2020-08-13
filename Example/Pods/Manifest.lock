@@ -1,5 +1,5 @@
 PODS:
-  - QSSearchBar (0.1.0)
+  - QSSearchBar (0.1.1)
 
 DEPENDENCIES:
   - QSSearchBar (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  QSSearchBar: 66d3bc76aee44be2e379a80586b024f4733a3c4b
+  QSSearchBar: 9be7276503fe2051cd549729f6cf3de21810ffa5
 
 PODFILE CHECKSUM: 2fbe6d847d515991f4427f18d4cdbf3d9cb1f315
 

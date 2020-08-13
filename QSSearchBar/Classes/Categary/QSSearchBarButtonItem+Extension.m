@@ -7,7 +7,7 @@
 //
 
 #import "QSSearchBarButtonItem+Extension.h"
-#import "QSMacro.h"
+#import "QSSearchConst.h"
 
 @implementation QSSearchBarButtonItem (Extension)
 

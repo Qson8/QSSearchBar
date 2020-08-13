@@ -8,8 +8,15 @@
 ## Example
 
 一款非常好用的、仿系统的、轻量级自定义SearchBar , 将原[QSSearchDemo](https://github.com/Qson8/QSSearchDemo)整理发布到cocoapods
-![演示图](/demo.gif)
+![演示图](demo.gif)
 
+![](demo1.png)
+![](demo2.png)
+![](demo3.png)
+![](demo4.png)
+![](demo5.png)
+![](demo6.png)
+![](demo7.png)
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
@@ -22,6 +29,11 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'QSSearchBar'
+```
+
+## Use
+```Object-C
+#import <QSSearchBar/QSSearchBar.h>
 ```
 
 ## Author

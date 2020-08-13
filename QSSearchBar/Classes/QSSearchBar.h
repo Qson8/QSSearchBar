@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "QSSearchConst.h"
+
 @class QSSearchBar,QSSearchBarButtonItem,QSSearchBarSearchItem;
 
 @protocol QSSearchBarDelegate <NSObject>
