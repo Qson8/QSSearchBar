@@ -1,0 +1,16 @@
+PODS:
+  - QSSearchBar (0.1.0)
+
+DEPENDENCIES:
+  - QSSearchBar (from `../`)
+
+EXTERNAL SOURCES:
+  QSSearchBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QSSearchBar: e36f35a4d32be21725448a293441437a7f19b42d
+
+PODFILE CHECKSUM: 2fbe6d847d515991f4427f18d4cdbf3d9cb1f315
+
+COCOAPODS: 1.9.1

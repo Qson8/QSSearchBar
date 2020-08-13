@@ -1,0 +1,979 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03402DBDB0F05C88B4781E1C98653CD2 /* mirror_search@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EDCE482BB8A6AA02CF3FEA58AFBF2F8 /* mirror_search@3x.png */; };
+		0616B6E25A7CB31AD5273C28F8C2923A /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAA424353C7D336E84041A98B7C3C75 /* UINavigationController+FDFullscreenPopGesture.m */; };
+		175C8B9779924E680D3026F141F4B062 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		21379C94AD82D33CB801E900D81118A4 /* QSSearchBarSearchItem+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 4619ECF7B1254D9C8016DC6F7FBA9AAB /* QSSearchBarSearchItem+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31FA38F499534EF373BD11E8452F042E /* QSSearchBarSearchItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F7779EF71DA4BF732B7B8DA6D68DA08 /* QSSearchBarSearchItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DBB42FEB3760236517CE7DB2D20717C /* Pods-QSSearchBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 034EF7313375B09C9BA42CDAC4E72DBD /* Pods-QSSearchBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F9AC7D3AC9741765DA52765C9C2A079 /* Pods-QSSearchBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CDB9CA230850C094B4D3A128CC7180 /* Pods-QSSearchBar_Example-dummy.m */; };
+		58F8298FEA3C0CFAA0B857B9F65C5FFC /* QSSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C398AFC29140CD9245765C7CA9A568D4 /* QSSearchBar.m */; };
+		5C9569769B4FFBFF2420F47750D52496 /* QSSearchBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A002AAB55AF56936AFF55AC5D220E97 /* QSSearchBarButtonItem+Extension.m */; };
+		5ED31AF8AC2E14055CCE448EF95A1406 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C2707B8E6C60468E8D4B246AFBFCAF /* UIImage+Extension.m */; };
+		633411A60926053A37800FAB733480BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		64A2AAB56E014500D5D07239C0989AEC /* QSSearchBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E99166EB1CF65BFF97441F086168D8 /* QSSearchBarButtonItem.m */; };
+		67938AC4E0FF7732FEB0400F2AD48E02 /* NSString+AttributedString.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C8FEBDF6A78B414713B73848C8B1BF3 /* NSString+AttributedString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C644A8ED6972F403ADE9D6C9F87C538 /* NSString+AttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = AD797A9FE384300DB12A6D51C1623B11 /* NSString+AttributedString.m */; };
+		789B9613FC38BC8770DFAAE74DFC873D /* QSSearchBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD5BDDDEAB8602CEB4B18CE02E176E76 /* QSSearchBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7956DDB7F10E2884438035AB0CBF2167 /* UINavigationController+FDFullscreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = B58F063BABABC716011A13265CDE8B51 /* UINavigationController+FDFullscreenPopGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88C8ACE2C8266F4B8CCF6CD0ECFCA772 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9110DD8816070A4A217E53EA5C3785F7 /* UIImage+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 7336385BB166DB47F9D46182C7DC33F3 /* UIImage+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		960E3D5D451043443D4821C61DA5B0EA /* UIButton+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BABB879E411E895C19BB4FE5BC9E28 /* UIButton+Layout.m */; };
+		96585CF8FCFA705E2C94F5555FC2F5F7 /* QSMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = F376A508A44AF0711C4E0CEE97137382 /* QSMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A38998C3D337194D4E129A1C50330928 /* Pods-QSSearchBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE00570274EC7715F83DB218D54C1E73 /* Pods-QSSearchBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC363DCB96217B94158DD6BB77500A24 /* UIButton+Layout.h in Headers */ = {isa = PBXBuildFile; fileRef = 03AD467A669B5E2A51F0FC13A0E4D390 /* UIButton+Layout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC1E50C2AED72E88875EC0DA7BF30160 /* QSSearchBarButtonItem+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = E74FF31BE79CA017F6BF0F033AD5AC25 /* QSSearchBarButtonItem+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF5D27AE70BEC90902A1F2519DCD0BDA /* UIView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C0419ED914D7D931EC310E3B90CAD34 /* UIView+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C13520B4AA366BBD8AC8BE5B42F0EE4A /* goback_search@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E77A20008F931368C6C6F7375C8383E /* goback_search@3x.png */; };
+		D20EFCDB91866CA105E2B7F6F74A137D /* Pods-QSSearchBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E607E334F932346C92AC7DAA2A5FD4AC /* Pods-QSSearchBar_Tests-dummy.m */; };
+		D54B957DF7378D3470425B3617F66E64 /* QSSearchBarSearchItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4668A7F70C66313A3EDCA73EC5D7F307 /* QSSearchBarSearchItem+Extension.m */; };
+		DB0FF3AD932F2970D4F154333A114641 /* QSSearchBarSearchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C0749AD552C5596AE69DC0B740F4A2 /* QSSearchBarSearchItem.m */; };
+		E257D97A0E6C96E3F8C652FC4DF59CB8 /* QSSearchBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C2A772C62690F27EC5F63A778C19AFE /* QSSearchBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E75629844ECDCB92166A2A7A1AC55234 /* QSSearchBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3369E91CB4D717944FD5400CF39567AD /* QSSearchBar.bundle */; };
+		F3914B954F854683FEE0CEE9050C265E /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 82261E5759F1DF1B293F183A84DBC184 /* UIView+Extension.m */; };
+		F9D1522E6139DB590F498CCA3FE9D44A /* QSSearchBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 696C77C1092549846CD6A394E1278E6B /* QSSearchBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF8B0F9F4C0A0E4588E8A9FC7084AA8B /* QSSearchBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B86B9FFC4C24A942AB0BF166361C524 /* QSSearchBar-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C07892504DA0E1FFDF735325B4C2281 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A559467E7752C849032A3EFB99FC6545;
+			remoteInfo = "Pods-QSSearchBar_Example";
+		};
+		2366E4F1654B6C016CE6E6D55C90DA56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9EF0D547920FD856B708832A0446545;
+			remoteInfo = QSSearchBar;
+		};
+		E8F0C0603048C3BE3741352DFDA3734F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1B8993CA7A1685FE647F605BAABEFDD;
+			remoteInfo = "QSSearchBar-QSSearchBar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0054433AC8289AF7BC00E22AE957FE64 /* QSSearchBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QSSearchBar-prefix.pch"; sourceTree = "<group>"; };
+		0287E945F063E708D56B817BCF1171C0 /* Pods-QSSearchBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QSSearchBar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		034EF7313375B09C9BA42CDAC4E72DBD /* Pods-QSSearchBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QSSearchBar_Example-umbrella.h"; sourceTree = "<group>"; };
+		03AD467A669B5E2A51F0FC13A0E4D390 /* UIButton+Layout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+Layout.h"; sourceTree = "<group>"; };
+		04DF28E6F957E491D43ACC970A86CF8B /* Pods-QSSearchBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QSSearchBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		09BABB879E411E895C19BB4FE5BC9E28 /* UIButton+Layout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Layout.m"; sourceTree = "<group>"; };
+		0E161A75C1F70239F1E1EFADB9B09141 /* QSSearchBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QSSearchBar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1C8FEBDF6A78B414713B73848C8B1BF3 /* NSString+AttributedString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+AttributedString.h"; sourceTree = "<group>"; };
+		1E77A20008F931368C6C6F7375C8383E /* goback_search@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "goback_search@3x.png"; path = "QSSearchBar/Assets/goback_search@3x.png"; sourceTree = "<group>"; };
+		1EDCE482BB8A6AA02CF3FEA58AFBF2F8 /* mirror_search@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "mirror_search@3x.png"; path = "QSSearchBar/Assets/mirror_search@3x.png"; sourceTree = "<group>"; };
+		1F7779EF71DA4BF732B7B8DA6D68DA08 /* QSSearchBarSearchItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSSearchBarSearchItem.h; path = QSSearchBar/Classes/QSSearchBarSearchItem.h; sourceTree = "<group>"; };
+		20E590C21C9A34BB375B26484DE1ED74 /* Pods-QSSearchBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QSSearchBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		26C2707B8E6C60468E8D4B246AFBFCAF /* UIImage+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		2A002AAB55AF56936AFF55AC5D220E97 /* QSSearchBarButtonItem+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QSSearchBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		2B730C3029758BDEF6492D0857CA234C /* Pods-QSSearchBar_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QSSearchBar_Example-Info.plist"; sourceTree = "<group>"; };
+		2B7A34839A055020D50897711ABFB5F7 /* ResourceBundle-QSSearchBar-QSSearchBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-QSSearchBar-QSSearchBar-Info.plist"; sourceTree = "<group>"; };
+		30D190B724FE79AA9AA200BF5CB51953 /* Pods_QSSearchBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QSSearchBar_Example.framework; path = "Pods-QSSearchBar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3369E91CB4D717944FD5400CF39567AD /* QSSearchBar.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = QSSearchBar.bundle; path = "QSSearchBar-QSSearchBar.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4090CC9B3484896F0A931AD8AC013C7B /* Pods-QSSearchBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QSSearchBar_Example.modulemap"; sourceTree = "<group>"; };
+		4619ECF7B1254D9C8016DC6F7FBA9AAB /* QSSearchBarSearchItem+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QSSearchBarSearchItem+Extension.h"; sourceTree = "<group>"; };
+		4668A7F70C66313A3EDCA73EC5D7F307 /* QSSearchBarSearchItem+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QSSearchBarSearchItem+Extension.m"; sourceTree = "<group>"; };
+		4C2A772C62690F27EC5F63A778C19AFE /* QSSearchBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSSearchBarButtonItem.h; path = QSSearchBar/Classes/QSSearchBarButtonItem.h; sourceTree = "<group>"; };
+		5B86B9FFC4C24A942AB0BF166361C524 /* QSSearchBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QSSearchBar-dummy.m"; sourceTree = "<group>"; };
+		619AD3ED947E24C0F7839429C77CC017 /* QSSearchBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QSSearchBar.framework; path = QSSearchBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62E31F87933293C44C3549F585B58789 /* Pods-QSSearchBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QSSearchBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		696C77C1092549846CD6A394E1278E6B /* QSSearchBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSSearchBar.h; path = QSSearchBar/Classes/QSSearchBar.h; sourceTree = "<group>"; };
+		7336385BB166DB47F9D46182C7DC33F3 /* UIImage+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		73C0749AD552C5596AE69DC0B740F4A2 /* QSSearchBarSearchItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QSSearchBarSearchItem.m; path = QSSearchBar/Classes/QSSearchBarSearchItem.m; sourceTree = "<group>"; };
+		82261E5759F1DF1B293F183A84DBC184 /* UIView+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		856177595E91D13435177FE39DB85EC2 /* Pods-QSSearchBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QSSearchBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8C0419ED914D7D931EC310E3B90CAD34 /* UIView+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E04CAC6ABEBD66CDF2BEBDAFB2677CA /* QSSearchBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QSSearchBar-Info.plist"; sourceTree = "<group>"; };
+		9EAA424353C7D336E84041A98B7C3C75 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		A690A2F88A361CD554A656AFFC07AADD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A753C42905C63FCF25936C8B670C0297 /* Pods-QSSearchBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QSSearchBar_Tests.modulemap"; sourceTree = "<group>"; };
+		A9E99166EB1CF65BFF97441F086168D8 /* QSSearchBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QSSearchBarButtonItem.m; path = QSSearchBar/Classes/QSSearchBarButtonItem.m; sourceTree = "<group>"; };
+		ABD8939CB9592CDF5959A4F3D61F9BD1 /* Pods-QSSearchBar_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QSSearchBar_Tests-Info.plist"; sourceTree = "<group>"; };
+		AD797A9FE384300DB12A6D51C1623B11 /* NSString+AttributedString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+AttributedString.m"; sourceTree = "<group>"; };
+		AE00570274EC7715F83DB218D54C1E73 /* Pods-QSSearchBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QSSearchBar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B22F58BFD24BC56B18D1153F192F4B83 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B58F063BABABC716011A13265CDE8B51 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		B5FF734995C4CF754FEA87357A65481D /* Pods-QSSearchBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QSSearchBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BD5BDDDEAB8602CEB4B18CE02E176E76 /* QSSearchBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QSSearchBar-umbrella.h"; sourceTree = "<group>"; };
+		C398AFC29140CD9245765C7CA9A568D4 /* QSSearchBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QSSearchBar.m; path = QSSearchBar/Classes/QSSearchBar.m; sourceTree = "<group>"; };
+		D289DA73F24A5464FAFB1F72837BA995 /* Pods-QSSearchBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QSSearchBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D64FB2D748962A57B7C2D46C8E69358A /* QSSearchBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QSSearchBar.modulemap; sourceTree = "<group>"; };
+		D9AFEFE728DE6CD2363960370D972738 /* QSSearchBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QSSearchBar.debug.xcconfig; sourceTree = "<group>"; };
+		DE5950E789E49FD2B893D82A81902DAB /* Pods-QSSearchBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QSSearchBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E4CDB9CA230850C094B4D3A128CC7180 /* Pods-QSSearchBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QSSearchBar_Example-dummy.m"; sourceTree = "<group>"; };
+		E607E334F932346C92AC7DAA2A5FD4AC /* Pods-QSSearchBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QSSearchBar_Tests-dummy.m"; sourceTree = "<group>"; };
+		E74FF31BE79CA017F6BF0F033AD5AC25 /* QSSearchBarButtonItem+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QSSearchBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		E7BA35F575F2F8DC8162B9CFFADF3E99 /* QSSearchBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QSSearchBar.release.xcconfig; sourceTree = "<group>"; };
+		ECC5E3A63C2C582FF59D681AB041272C /* Pods_QSSearchBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QSSearchBar_Tests.framework; path = "Pods-QSSearchBar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F376A508A44AF0711C4E0CEE97137382 /* QSMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSMacro.h; path = QSSearchBar/Classes/QSMacro.h; sourceTree = "<group>"; };
+		FA246C5C434809985963843E9A17909C /* Pods-QSSearchBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QSSearchBar_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F2052849306A8E9DD3707C9E55755E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633411A60926053A37800FAB733480BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A895D87E0ADBDEDFD26C9FB8B98BAAC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C8ACE2C8266F4B8CCF6CD0ECFCA772 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90691E9EBB3BF6DDFE81D594CAAAC23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2851DDAA3161FE94559A0C000605D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				175C8B9779924E680D3026F141F4B062 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02F0BA320714C64A64A2E4B6400A2882 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30D190B724FE79AA9AA200BF5CB51953 /* Pods_QSSearchBar_Example.framework */,
+				ECC5E3A63C2C582FF59D681AB041272C /* Pods_QSSearchBar_Tests.framework */,
+				3369E91CB4D717944FD5400CF39567AD /* QSSearchBar.bundle */,
+				619AD3ED947E24C0F7839429C77CC017 /* QSSearchBar.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06C785490B37551DCF46588103171692 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EA075202508E66787A5D63312AFCD74 /* Pods-QSSearchBar_Example */,
+				61D476219420BC60BDF65C663362803C /* Pods-QSSearchBar_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0EA075202508E66787A5D63312AFCD74 /* Pods-QSSearchBar_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4090CC9B3484896F0A931AD8AC013C7B /* Pods-QSSearchBar_Example.modulemap */,
+				DE5950E789E49FD2B893D82A81902DAB /* Pods-QSSearchBar_Example-acknowledgements.markdown */,
+				D289DA73F24A5464FAFB1F72837BA995 /* Pods-QSSearchBar_Example-acknowledgements.plist */,
+				E4CDB9CA230850C094B4D3A128CC7180 /* Pods-QSSearchBar_Example-dummy.m */,
+				FA246C5C434809985963843E9A17909C /* Pods-QSSearchBar_Example-frameworks.sh */,
+				2B730C3029758BDEF6492D0857CA234C /* Pods-QSSearchBar_Example-Info.plist */,
+				034EF7313375B09C9BA42CDAC4E72DBD /* Pods-QSSearchBar_Example-umbrella.h */,
+				856177595E91D13435177FE39DB85EC2 /* Pods-QSSearchBar_Example.debug.xcconfig */,
+				0287E945F063E708D56B817BCF1171C0 /* Pods-QSSearchBar_Example.release.xcconfig */,
+			);
+			name = "Pods-QSSearchBar_Example";
+			path = "Target Support Files/Pods-QSSearchBar_Example";
+			sourceTree = "<group>";
+		};
+		102D1130C9DE72E5BE3B13FAF7AA9582 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A690A2F88A361CD554A656AFFC07AADD /* LICENSE */,
+				0E161A75C1F70239F1E1EFADB9B09141 /* QSSearchBar.podspec */,
+				B22F58BFD24BC56B18D1153F192F4B83 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		61D476219420BC60BDF65C663362803C /* Pods-QSSearchBar_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A753C42905C63FCF25936C8B670C0297 /* Pods-QSSearchBar_Tests.modulemap */,
+				20E590C21C9A34BB375B26484DE1ED74 /* Pods-QSSearchBar_Tests-acknowledgements.markdown */,
+				04DF28E6F957E491D43ACC970A86CF8B /* Pods-QSSearchBar_Tests-acknowledgements.plist */,
+				E607E334F932346C92AC7DAA2A5FD4AC /* Pods-QSSearchBar_Tests-dummy.m */,
+				ABD8939CB9592CDF5959A4F3D61F9BD1 /* Pods-QSSearchBar_Tests-Info.plist */,
+				AE00570274EC7715F83DB218D54C1E73 /* Pods-QSSearchBar_Tests-umbrella.h */,
+				62E31F87933293C44C3549F585B58789 /* Pods-QSSearchBar_Tests.debug.xcconfig */,
+				B5FF734995C4CF754FEA87357A65481D /* Pods-QSSearchBar_Tests.release.xcconfig */,
+			);
+			name = "Pods-QSSearchBar_Tests";
+			path = "Target Support Files/Pods-QSSearchBar_Tests";
+			sourceTree = "<group>";
+		};
+		890F4E95D9FC887EFAA3AFBC06318CD8 /* QSSearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				F376A508A44AF0711C4E0CEE97137382 /* QSMacro.h */,
+				696C77C1092549846CD6A394E1278E6B /* QSSearchBar.h */,
+				C398AFC29140CD9245765C7CA9A568D4 /* QSSearchBar.m */,
+				4C2A772C62690F27EC5F63A778C19AFE /* QSSearchBarButtonItem.h */,
+				A9E99166EB1CF65BFF97441F086168D8 /* QSSearchBarButtonItem.m */,
+				1F7779EF71DA4BF732B7B8DA6D68DA08 /* QSSearchBarSearchItem.h */,
+				73C0749AD552C5596AE69DC0B740F4A2 /* QSSearchBarSearchItem.m */,
+				F1742BFC509FAEAA397711B6A4DA312F /* Categary */,
+				102D1130C9DE72E5BE3B13FAF7AA9582 /* Pod */,
+				996CFADD90161362FB5FBB8692309E92 /* Resources */,
+				B8912163FF06F14BF9A121E79E2C0262 /* Support Files */,
+			);
+			name = QSSearchBar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		996CFADD90161362FB5FBB8692309E92 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1E77A20008F931368C6C6F7375C8383E /* goback_search@3x.png */,
+				1EDCE482BB8A6AA02CF3FEA58AFBF2F8 /* mirror_search@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B15FB37495B0521E23415A076C1C7436 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				890F4E95D9FC887EFAA3AFBC06318CD8 /* QSSearchBar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B8912163FF06F14BF9A121E79E2C0262 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D64FB2D748962A57B7C2D46C8E69358A /* QSSearchBar.modulemap */,
+				5B86B9FFC4C24A942AB0BF166361C524 /* QSSearchBar-dummy.m */,
+				9E04CAC6ABEBD66CDF2BEBDAFB2677CA /* QSSearchBar-Info.plist */,
+				0054433AC8289AF7BC00E22AE957FE64 /* QSSearchBar-prefix.pch */,
+				BD5BDDDEAB8602CEB4B18CE02E176E76 /* QSSearchBar-umbrella.h */,
+				D9AFEFE728DE6CD2363960370D972738 /* QSSearchBar.debug.xcconfig */,
+				E7BA35F575F2F8DC8162B9CFFADF3E99 /* QSSearchBar.release.xcconfig */,
+				2B7A34839A055020D50897711ABFB5F7 /* ResourceBundle-QSSearchBar-QSSearchBar-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QSSearchBar";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B15FB37495B0521E23415A076C1C7436 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				02F0BA320714C64A64A2E4B6400A2882 /* Products */,
+				06C785490B37551DCF46588103171692 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1742BFC509FAEAA397711B6A4DA312F /* Categary */ = {
+			isa = PBXGroup;
+			children = (
+				1C8FEBDF6A78B414713B73848C8B1BF3 /* NSString+AttributedString.h */,
+				AD797A9FE384300DB12A6D51C1623B11 /* NSString+AttributedString.m */,
+				E74FF31BE79CA017F6BF0F033AD5AC25 /* QSSearchBarButtonItem+Extension.h */,
+				2A002AAB55AF56936AFF55AC5D220E97 /* QSSearchBarButtonItem+Extension.m */,
+				4619ECF7B1254D9C8016DC6F7FBA9AAB /* QSSearchBarSearchItem+Extension.h */,
+				4668A7F70C66313A3EDCA73EC5D7F307 /* QSSearchBarSearchItem+Extension.m */,
+				03AD467A669B5E2A51F0FC13A0E4D390 /* UIButton+Layout.h */,
+				09BABB879E411E895C19BB4FE5BC9E28 /* UIButton+Layout.m */,
+				7336385BB166DB47F9D46182C7DC33F3 /* UIImage+Extension.h */,
+				26C2707B8E6C60468E8D4B246AFBFCAF /* UIImage+Extension.m */,
+				B58F063BABABC716011A13265CDE8B51 /* UINavigationController+FDFullscreenPopGesture.h */,
+				9EAA424353C7D336E84041A98B7C3C75 /* UINavigationController+FDFullscreenPopGesture.m */,
+				8C0419ED914D7D931EC310E3B90CAD34 /* UIView+Extension.h */,
+				82261E5759F1DF1B293F183A84DBC184 /* UIView+Extension.m */,
+			);
+			name = Categary;
+			path = QSSearchBar/Classes/Categary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		64C62F6EB0F6FD465BF697C8150FDF69 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DBB42FEB3760236517CE7DB2D20717C /* Pods-QSSearchBar_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2512CAC5F706DA2DAD19ADBDE08127 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67938AC4E0FF7732FEB0400F2AD48E02 /* NSString+AttributedString.h in Headers */,
+				96585CF8FCFA705E2C94F5555FC2F5F7 /* QSMacro.h in Headers */,
+				789B9613FC38BC8770DFAAE74DFC873D /* QSSearchBar-umbrella.h in Headers */,
+				F9D1522E6139DB590F498CCA3FE9D44A /* QSSearchBar.h in Headers */,
+				BC1E50C2AED72E88875EC0DA7BF30160 /* QSSearchBarButtonItem+Extension.h in Headers */,
+				E257D97A0E6C96E3F8C652FC4DF59CB8 /* QSSearchBarButtonItem.h in Headers */,
+				21379C94AD82D33CB801E900D81118A4 /* QSSearchBarSearchItem+Extension.h in Headers */,
+				31FA38F499534EF373BD11E8452F042E /* QSSearchBarSearchItem.h in Headers */,
+				AC363DCB96217B94158DD6BB77500A24 /* UIButton+Layout.h in Headers */,
+				9110DD8816070A4A217E53EA5C3785F7 /* UIImage+Extension.h in Headers */,
+				7956DDB7F10E2884438035AB0CBF2167 /* UINavigationController+FDFullscreenPopGesture.h in Headers */,
+				BF5D27AE70BEC90902A1F2519DCD0BDA /* UIView+Extension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5EA53D169BEBCDC831B854855E18B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38998C3D337194D4E129A1C50330928 /* Pods-QSSearchBar_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A559467E7752C849032A3EFB99FC6545 /* Pods-QSSearchBar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67328169D95D697D175CD080DE35FE03 /* Build configuration list for PBXNativeTarget "Pods-QSSearchBar_Example" */;
+			buildPhases = (
+				64C62F6EB0F6FD465BF697C8150FDF69 /* Headers */,
+				2E6E6B8344EA3FB738FD776342810CE8 /* Sources */,
+				EE2851DDAA3161FE94559A0C000605D8 /* Frameworks */,
+				D668B5E9230466EF624FA35975C7265F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6CA28108BCE3FB4766AE48CFE7065DA /* PBXTargetDependency */,
+			);
+			name = "Pods-QSSearchBar_Example";
+			productName = "Pods-QSSearchBar_Example";
+			productReference = 30D190B724FE79AA9AA200BF5CB51953 /* Pods_QSSearchBar_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B17C90B1798E721044C8735F25C5F438 /* Pods-QSSearchBar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D1C2CE96BCC3038D4C840E09F9382D /* Build configuration list for PBXNativeTarget "Pods-QSSearchBar_Tests" */;
+			buildPhases = (
+				CE5EA53D169BEBCDC831B854855E18B4 /* Headers */,
+				14E8C8855FC580A5CA98DB80A5D5C6CA /* Sources */,
+				6F2052849306A8E9DD3707C9E55755E7 /* Frameworks */,
+				E35594DFF0C194827C9563A6C13FD8B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8B11F203832D36D0AA402EB27193995 /* PBXTargetDependency */,
+			);
+			name = "Pods-QSSearchBar_Tests";
+			productName = "Pods-QSSearchBar_Tests";
+			productReference = ECC5E3A63C2C582FF59D681AB041272C /* Pods_QSSearchBar_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B1B8993CA7A1685FE647F605BAABEFDD /* QSSearchBar-QSSearchBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17BF8E926AA0009EEA0AC5BDD96991D3 /* Build configuration list for PBXNativeTarget "QSSearchBar-QSSearchBar" */;
+			buildPhases = (
+				3275F4062F096E8344B6C220C760B1D1 /* Sources */,
+				A90691E9EBB3BF6DDFE81D594CAAAC23 /* Frameworks */,
+				CE419AB82A8221E7C15D4577BCFB134B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QSSearchBar-QSSearchBar";
+			productName = "QSSearchBar-QSSearchBar";
+			productReference = 3369E91CB4D717944FD5400CF39567AD /* QSSearchBar.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F9EF0D547920FD856B708832A0446545 /* QSSearchBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A55FA06698D2B64386C7319378C28656 /* Build configuration list for PBXNativeTarget "QSSearchBar" */;
+			buildPhases = (
+				6B2512CAC5F706DA2DAD19ADBDE08127 /* Headers */,
+				0450669693A42525509B7D28EB66A25C /* Sources */,
+				A895D87E0ADBDEDFD26C9FB8B98BAAC1 /* Frameworks */,
+				7671FAAD6F6D30E7F7A0EB2857F1AC22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AC4E6CDFF129C6614B4992F023884A9 /* PBXTargetDependency */,
+			);
+			name = QSSearchBar;
+			productName = QSSearchBar;
+			productReference = 619AD3ED947E24C0F7839429C77CC017 /* QSSearchBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 02F0BA320714C64A64A2E4B6400A2882 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A559467E7752C849032A3EFB99FC6545 /* Pods-QSSearchBar_Example */,
+				B17C90B1798E721044C8735F25C5F438 /* Pods-QSSearchBar_Tests */,
+				F9EF0D547920FD856B708832A0446545 /* QSSearchBar */,
+				B1B8993CA7A1685FE647F605BAABEFDD /* QSSearchBar-QSSearchBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7671FAAD6F6D30E7F7A0EB2857F1AC22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75629844ECDCB92166A2A7A1AC55234 /* QSSearchBar.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE419AB82A8221E7C15D4577BCFB134B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C13520B4AA366BBD8AC8BE5B42F0EE4A /* goback_search@3x.png in Resources */,
+				03402DBDB0F05C88B4781E1C98653CD2 /* mirror_search@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D668B5E9230466EF624FA35975C7265F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35594DFF0C194827C9563A6C13FD8B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0450669693A42525509B7D28EB66A25C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C644A8ED6972F403ADE9D6C9F87C538 /* NSString+AttributedString.m in Sources */,
+				FF8B0F9F4C0A0E4588E8A9FC7084AA8B /* QSSearchBar-dummy.m in Sources */,
+				58F8298FEA3C0CFAA0B857B9F65C5FFC /* QSSearchBar.m in Sources */,
+				5C9569769B4FFBFF2420F47750D52496 /* QSSearchBarButtonItem+Extension.m in Sources */,
+				64A2AAB56E014500D5D07239C0989AEC /* QSSearchBarButtonItem.m in Sources */,
+				D54B957DF7378D3470425B3617F66E64 /* QSSearchBarSearchItem+Extension.m in Sources */,
+				DB0FF3AD932F2970D4F154333A114641 /* QSSearchBarSearchItem.m in Sources */,
+				960E3D5D451043443D4821C61DA5B0EA /* UIButton+Layout.m in Sources */,
+				5ED31AF8AC2E14055CCE448EF95A1406 /* UIImage+Extension.m in Sources */,
+				0616B6E25A7CB31AD5273C28F8C2923A /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				F3914B954F854683FEE0CEE9050C265E /* UIView+Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E8C8855FC580A5CA98DB80A5D5C6CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D20EFCDB91866CA105E2B7F6F74A137D /* Pods-QSSearchBar_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E6E6B8344EA3FB738FD776342810CE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F9AC7D3AC9741765DA52765C9C2A079 /* Pods-QSSearchBar_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3275F4062F096E8344B6C220C760B1D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AC4E6CDFF129C6614B4992F023884A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "QSSearchBar-QSSearchBar";
+			target = B1B8993CA7A1685FE647F605BAABEFDD /* QSSearchBar-QSSearchBar */;
+			targetProxy = E8F0C0603048C3BE3741352DFDA3734F /* PBXContainerItemProxy */;
+		};
+		A6CA28108BCE3FB4766AE48CFE7065DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QSSearchBar;
+			target = F9EF0D547920FD856B708832A0446545 /* QSSearchBar */;
+			targetProxy = 2366E4F1654B6C016CE6E6D55C90DA56 /* PBXContainerItemProxy */;
+		};
+		C8B11F203832D36D0AA402EB27193995 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QSSearchBar_Example";
+			target = A559467E7752C849032A3EFB99FC6545 /* Pods-QSSearchBar_Example */;
+			targetProxy = 1C07892504DA0E1FFDF735325B4C2281 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17AB8C340FD7B13DD672969EC39DFE89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 856177595E91D13435177FE39DB85EC2 /* Pods-QSSearchBar_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QSSearchBar_Example/Pods-QSSearchBar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QSSearchBar_Example/Pods-QSSearchBar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		34A248B16D2C82B5CF1AE31A0A6E184C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9AFEFE728DE6CD2363960370D972738 /* QSSearchBar.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QSSearchBar/QSSearchBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QSSearchBar/QSSearchBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QSSearchBar/QSSearchBar.modulemap";
+				PRODUCT_MODULE_NAME = QSSearchBar;
+				PRODUCT_NAME = QSSearchBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		36D4B6315DB47D623F4137F613BBF0BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9AFEFE728DE6CD2363960370D972738 /* QSSearchBar.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QSSearchBar";
+				IBSC_MODULE = QSSearchBar;
+				INFOPLIST_FILE = "Target Support Files/QSSearchBar/ResourceBundle-QSSearchBar-QSSearchBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = QSSearchBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		82E637FE0E0C434369ACD70F8AE28F82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62E31F87933293C44C3549F585B58789 /* Pods-QSSearchBar_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QSSearchBar_Tests/Pods-QSSearchBar_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QSSearchBar_Tests/Pods-QSSearchBar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		989DD7CE0B349C76829368F075C248CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7BA35F575F2F8DC8162B9CFFADF3E99 /* QSSearchBar.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QSSearchBar/QSSearchBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QSSearchBar/QSSearchBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QSSearchBar/QSSearchBar.modulemap";
+				PRODUCT_MODULE_NAME = QSSearchBar;
+				PRODUCT_NAME = QSSearchBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E6902B6A72B7204FD9D179A22918AA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5FF734995C4CF754FEA87357A65481D /* Pods-QSSearchBar_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QSSearchBar_Tests/Pods-QSSearchBar_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QSSearchBar_Tests/Pods-QSSearchBar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C92131D2DD15FC4BF60CBDB763C39DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7BA35F575F2F8DC8162B9CFFADF3E99 /* QSSearchBar.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QSSearchBar";
+				IBSC_MODULE = QSSearchBar;
+				INFOPLIST_FILE = "Target Support Files/QSSearchBar/ResourceBundle-QSSearchBar-QSSearchBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = QSSearchBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D7A761D1290041B94AB10760C67FDF58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0287E945F063E708D56B817BCF1171C0 /* Pods-QSSearchBar_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QSSearchBar_Example/Pods-QSSearchBar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QSSearchBar_Example/Pods-QSSearchBar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17BF8E926AA0009EEA0AC5BDD96991D3 /* Build configuration list for PBXNativeTarget "QSSearchBar-QSSearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36D4B6315DB47D623F4137F613BBF0BF /* Debug */,
+				C92131D2DD15FC4BF60CBDB763C39DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67328169D95D697D175CD080DE35FE03 /* Build configuration list for PBXNativeTarget "Pods-QSSearchBar_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17AB8C340FD7B13DD672969EC39DFE89 /* Debug */,
+				D7A761D1290041B94AB10760C67FDF58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A55FA06698D2B64386C7319378C28656 /* Build configuration list for PBXNativeTarget "QSSearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A248B16D2C82B5CF1AE31A0A6E184C /* Debug */,
+				989DD7CE0B349C76829368F075C248CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5D1C2CE96BCC3038D4C840E09F9382D /* Build configuration list for PBXNativeTarget "Pods-QSSearchBar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82E637FE0E0C434369ACD70F8AE28F82 /* Debug */,
+				9E6902B6A72B7204FD9D179A22918AA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
