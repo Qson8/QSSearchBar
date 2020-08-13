@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/qiubite2013@126.com/QSSearchBar'
+  s.homepage         = 'https://github.com/Qson8/QSSearchBar'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'qiubite2013@126.com' => '455063392@qq.com' }
-  s.source           = { :git => 'https://github.com/qiubite2013@126.com/QSSearchBar.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Qson8/QSSearchBar.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
