@@ -22,8 +22,16 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		618DAC42FFF1DA637A6F1778 /* Pods_QSSearchBar_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDB930DFCE54A830CD87474 /* Pods_QSSearchBar_Example.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		8BFD31D9D073FE48E12FE3BA /* Pods_QSSearchBar_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A24B670DAC5AA7D69AF15DC5 /* Pods_QSSearchBar_Tests.framework */; };
+		ECB3100E24E4F78A007BDF6D /* QSSearchDemo7.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB30FFC24E4F78A007BDF6D /* QSSearchDemo7.m */; };
+		ECB3100F24E4F78A007BDF6D /* QSSearchDemo3.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB30FFF24E4F78A007BDF6D /* QSSearchDemo3.m */; };
+		ECB3101024E4F78A007BDF6D /* QSSearchDemo4.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB3100224E4F78A007BDF6D /* QSSearchDemo4.m */; };
+		ECB3101124E4F78A007BDF6D /* QSSearchDemo5.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB3100624E4F78A007BDF6D /* QSSearchDemo5.m */; };
+		ECB3101224E4F78A007BDF6D /* QSSearchDemo1.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB3100724E4F78A007BDF6D /* QSSearchDemo1.m */; };
+		ECB3101324E4F78A007BDF6D /* QSSearchDemo6.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB3100924E4F78A007BDF6D /* QSSearchDemo6.m */; };
+		ECB3101424E4F78A007BDF6D /* QSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB3100A24E4F78A007BDF6D /* QSBaseViewController.m */; };
+		ECB3101524E4F78A007BDF6D /* QSSearchDemo8.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB3100C24E4F78A007BDF6D /* QSSearchDemo8.m */; };
+		ECB3101624E4F78A007BDF6D /* QSSearchDemo2.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB3100D24E4F78A007BDF6D /* QSSearchDemo2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,11 +69,28 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6DDB930DFCE54A830CD87474 /* Pods_QSSearchBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QSSearchBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9585215BDACB5F517285023D /* QSSearchBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QSSearchBar.podspec; path = ../QSSearchBar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A04459BCC210D9581B9FB45D /* Pods-QSSearchBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QSSearchBar_Tests.debug.xcconfig"; path = "Target Support Files/Pods-QSSearchBar_Tests/Pods-QSSearchBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A24B670DAC5AA7D69AF15DC5 /* Pods_QSSearchBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QSSearchBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E814FDE2DA2EA7D6B3412024 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		ECB30FFC24E4F78A007BDF6D /* QSSearchDemo7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSSearchDemo7.m; sourceTree = "<group>"; };
+		ECB30FFD24E4F78A007BDF6D /* QSSearchDemo1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSSearchDemo1.h; sourceTree = "<group>"; };
+		ECB30FFE24E4F78A007BDF6D /* QSSearchDemo5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSSearchDemo5.h; sourceTree = "<group>"; };
+		ECB30FFF24E4F78A007BDF6D /* QSSearchDemo3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSSearchDemo3.m; sourceTree = "<group>"; };
+		ECB3100024E4F78A007BDF6D /* QSSearchDemo2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSSearchDemo2.h; sourceTree = "<group>"; };
+		ECB3100124E4F78A007BDF6D /* QSSearchDemo8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSSearchDemo8.h; sourceTree = "<group>"; };
+		ECB3100224E4F78A007BDF6D /* QSSearchDemo4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSSearchDemo4.m; sourceTree = "<group>"; };
+		ECB3100324E4F78A007BDF6D /* QSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSBaseViewController.h; sourceTree = "<group>"; };
+		ECB3100424E4F78A007BDF6D /* QSSearchDemo6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSSearchDemo6.h; sourceTree = "<group>"; };
+		ECB3100524E4F78A007BDF6D /* QSSearchDemo3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSSearchDemo3.h; sourceTree = "<group>"; };
+		ECB3100624E4F78A007BDF6D /* QSSearchDemo5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSSearchDemo5.m; sourceTree = "<group>"; };
+		ECB3100724E4F78A007BDF6D /* QSSearchDemo1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSSearchDemo1.m; sourceTree = "<group>"; };
+		ECB3100824E4F78A007BDF6D /* QSSearchDemo7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSSearchDemo7.h; sourceTree = "<group>"; };
+		ECB3100924E4F78A007BDF6D /* QSSearchDemo6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSSearchDemo6.m; sourceTree = "<group>"; };
+		ECB3100A24E4F78A007BDF6D /* QSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSBaseViewController.m; sourceTree = "<group>"; };
+		ECB3100B24E4F78A007BDF6D /* QSSearchDemo4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSSearchDemo4.h; sourceTree = "<group>"; };
+		ECB3100C24E4F78A007BDF6D /* QSSearchDemo8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSSearchDemo8.m; sourceTree = "<group>"; };
+		ECB3100D24E4F78A007BDF6D /* QSSearchDemo2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSSearchDemo2.m; sourceTree = "<group>"; };
 		F7ECBE51E4C71D80BD5666E9 /* Pods-QSSearchBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QSSearchBar_Example.release.xcconfig"; path = "Target Support Files/Pods-QSSearchBar_Example/Pods-QSSearchBar_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,9 +157,9 @@
 		6003F593195388D20070C39A /* Example for QSSearchBar */ = {
 			isa = PBXGroup;
 			children = (
+				ECB30FFB24E4F78A007BDF6D /* VC */,
 				6003F59C195388D20070C39A /* QSAppDelegate.h */,
 				6003F59D195388D20070C39A /* QSAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* QSViewController.h */,
 				6003F5A6195388D20070C39A /* QSViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
@@ -194,6 +219,31 @@
 				58E23CE9AB778FE12E3BA8E1 /* Pods-QSSearchBar_Tests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		ECB30FFB24E4F78A007BDF6D /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				ECB3100324E4F78A007BDF6D /* QSBaseViewController.h */,
+				ECB3100A24E4F78A007BDF6D /* QSBaseViewController.m */,
+				ECB30FFD24E4F78A007BDF6D /* QSSearchDemo1.h */,
+				ECB3100724E4F78A007BDF6D /* QSSearchDemo1.m */,
+				ECB3100024E4F78A007BDF6D /* QSSearchDemo2.h */,
+				ECB3100D24E4F78A007BDF6D /* QSSearchDemo2.m */,
+				ECB3100524E4F78A007BDF6D /* QSSearchDemo3.h */,
+				ECB30FFF24E4F78A007BDF6D /* QSSearchDemo3.m */,
+				ECB3100B24E4F78A007BDF6D /* QSSearchDemo4.h */,
+				ECB3100224E4F78A007BDF6D /* QSSearchDemo4.m */,
+				ECB30FFE24E4F78A007BDF6D /* QSSearchDemo5.h */,
+				ECB3100624E4F78A007BDF6D /* QSSearchDemo5.m */,
+				ECB3100424E4F78A007BDF6D /* QSSearchDemo6.h */,
+				ECB3100924E4F78A007BDF6D /* QSSearchDemo6.m */,
+				ECB3100824E4F78A007BDF6D /* QSSearchDemo7.h */,
+				ECB30FFC24E4F78A007BDF6D /* QSSearchDemo7.m */,
+				ECB3100124E4F78A007BDF6D /* QSSearchDemo8.h */,
+				ECB3100C24E4F78A007BDF6D /* QSSearchDemo8.m */,
+			);
+			path = VC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,7 +327,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -364,8 +413,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECB3100E24E4F78A007BDF6D /* QSSearchDemo7.m in Sources */,
 				6003F59E195388D20070C39A /* QSAppDelegate.m in Sources */,
+				ECB3101224E4F78A007BDF6D /* QSSearchDemo1.m in Sources */,
+				ECB3101624E4F78A007BDF6D /* QSSearchDemo2.m in Sources */,
+				ECB3101424E4F78A007BDF6D /* QSBaseViewController.m in Sources */,
+				ECB3101124E4F78A007BDF6D /* QSSearchDemo5.m in Sources */,
 				6003F5A7195388D20070C39A /* QSViewController.m in Sources */,
+				ECB3101524E4F78A007BDF6D /* QSSearchDemo8.m in Sources */,
+				ECB3101024E4F78A007BDF6D /* QSSearchDemo4.m in Sources */,
+				ECB3101324E4F78A007BDF6D /* QSSearchDemo6.m in Sources */,
+				ECB3100F24E4F78A007BDF6D /* QSSearchDemo3.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

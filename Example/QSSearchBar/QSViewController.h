@@ -6,8 +6,8 @@
 //  Copyright (c) 2020 qiubite2013@126.com. All rights reserved.
 //
 
-@import UIKit;
+#import "QSBaseViewController.h"
 
-@interface QSViewController : UIViewController
+@interface QSViewController : QSBaseViewController
 
 @end

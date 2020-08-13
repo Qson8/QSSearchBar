@@ -20,6 +20,9 @@ it, simply add the following line to your Podfile:
 pod 'QSSearchBar'
 ```
 
+一款非常好用的、仿系统的、轻量级自定义SearchBar , 将原[QSSearchDemo](https://github.com/Qson8/QSSearchDemo)整理发布到cocoapods
+![demo](demo.gif)
+
 ## Author
 
 qiubite2013@126.com, 455063392@qq.com
